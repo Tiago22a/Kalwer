@@ -11,7 +11,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Cabin">
+ <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+
+ <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
 
 <!-- Charset -->
 <meta charset="UTF-8">
@@ -64,7 +66,7 @@
     class="min-h-screen flex flex-col justify-center items-center text-center px-4 h-screen bg-cover bg-center relative "
     style="background-image: url('./Fundo\ Pagina.png');">
     <!-- Header fixo e transparente -->
-    <header
+    <header data-aos="fade-up" data-aos-duration="800"
       class="absolute top-0 left-0 w-full flex justify-between items-center px-8 py-2 z-50 bg-black bg-opacity-0 text-white">
       <img class="logo" src="./Kalwer logo.png" alt="">
       <!-- Logo à esquerda -->
@@ -75,13 +77,13 @@
 
       <!-- Menu à direita -->
       <nav class="hidden md:flex space-x-8">
-        <a href="#home" class="hover:underline">Home</a>
+        <a href="#" class="hover:underline">Home</a>
         <a href="#sobre" class="hover:underline">Sobre</a>
-        <a href="#portfolio" class="hover:underline">portifólio</a>
+        <a href="#portfolio" class="hover:underline">portfólio</a>
       </nav>
 
       <!-- Botão contato -->
-      <a href="https://wa.me/5511988784102?text=Olá,%20quero%20um%20design%20personalizado!" target="_blank"
+      <a  href="https://wa.me/5511988784102?text=Olá,%20quero%20um%20design%20personalizado!" target="_blank"
         rel="noopener noreferrer" class="bg-pink-600 hover:bg-pink-700 px-4 py-2 rounded ml-6 transition">
         Fale com a gente
       </a>
@@ -91,22 +93,22 @@
     <div class="container-hero">
       <!-- Conteúdo da página aqui -->
       <div class="hero-img">
-        <img src="./image-removebg-preview.png" alt="" class="mx-auto">
+        <img data-aos="fade-up" data-aos-duration="800" src="./image-removebg-preview.png" alt="" class="mx-auto">
       </div>
       <br>
-      <p class="text-4xl text-white" style="font-family: 'Fugaz One', sans-serif;">Sua ideia, nossa arte</p>
+      <p data-aos="fade-up" data-aos-duration="800" class="text-4xl text-white" style="font-family: 'Fugaz One', sans-serif;">Sua ideia, nossa arte</p>
       <br>
-      <a href="" target="_blank" rel="noopener noreferrer"
+      <a data-aos="zoom-in" data-aos-duration="800" href="#contato" target="_blank" rel="noopener noreferrer"
         class="bg-white hover:bg-gray-200 px-4 py-2 text-2xl rounded ml-6 transition">Fale com a gente</a>
     </div>
   </section>
   <br><br><br>
-  <section class="">
-    <h1 class="text-center text-7xl font-bold sm:font-bold md:font-bold">Você tem a ideia, <br> <span>a gente faz</span></h1>
+  <section id="sobre">
+    <h1 data-aos="fade-up" data-aos-duration="800" class="text-center text-7xl font-bold sm:font-bold md:font-bold">Você tem a ideia, <br> <span>a gente faz</span></h1>
     <div>
     <br><br>
    
-    <p class="px-4 text-2xl  mx-8 text-center "style="font-family: 'Cabin', sans-serif; font-weight: 400;">Somos a Kalwer, uma marca dedicada a transformar ideias em
+    <p data-aos="fade-up" data-aos-duration="800" class="px-4 text-2xl  mx-8 text-center "style="font-family: 'Cabin', sans-serif; font-weight: 400;">Somos a Kalwer, uma marca dedicada a transformar ideias em
       identidades visuais que realmente fazem a diferença. Com paixão pelo design e foco em comunicação estratégica, a
       Kalwer surgiu para ajudar empresas, criadores e empreendedores a se destacarem no digital. Mais do que criar arte
       bonita, a Kalwer acredita que design é sobre impacto, conexão e confiança.</p>
@@ -116,7 +118,7 @@
   <!-- Texto à esquerda agora -->
   <div class="flex flex-col items-center justify-center text-center my-auto">
 
-    <p class="text-2xl font-medium">
+    <p data-aos="fade-up" data-aos-duration="800" class="text-2xl font-medium">
       Produzimos banners para YouTube, posts para <br>
       redes sociais, vídeos curtos para reels, stories <br>
       e TikTok, além de desenhos e emotes <br>
@@ -124,19 +126,19 @@
       e impactantes para fortalecer sua marca no digital.
     </p>
 
-    <a href="#portfolio" class="mt-4 bg-white border border-black px-6 py-2 rounded hover:bg-gray-200 transition">
+    <a data-aos="zoom-in" data-aos-duration="800" href="#portfolio" class="mt-4 bg-white border border-black px-6 py-2 rounded hover:bg-gray-200 transition">
       Quero ver
     </a>
   </div>
 
   <!-- Imagem à direita agora -->
-  <img src="./mgb-04..png" alt="Exemplo" class="w-96 h-auto rounded-xl px-2 shadow hover:scale-110 transition-transform duration-300" />
+  <img data-aos="zoom-in" data-aos-duration="800" src="./mgb-04..png" alt="Exemplo" class="w-96 h-auto rounded-xl px-2 shadow hover:scale-110 transition-transform duration-300" />
 </div>
 
 
 
     <br><br>
-    <h1 class="text-center text-7xl font-bold">O que a <span>Kalwer </span>faz por você</h1>
+    <h1 data-aos="fade-up" data-aos-duration="800" class="text-center text-7xl font-bold">O que a <span>Kalwer </span>faz por você</h1>
 <br><br>
      </section>
 
@@ -146,92 +148,94 @@
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 text-left">
       <!-- Serviço 1 -->
-      <div class="bg-gray-200 p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300">
+      <div data-aos="zoom-in" data-aos-duration="800" class=" p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300" style="background-color: #ffc4e8;">
         <h3 class="text-xl font-semibold text-pink-600 mb-2">Banners para YouTube</h3>
         <p class="text-gray-700">Criamos banners impactantes e personalizados para destacar o seu canal.</p>
       </div>
 
       <!-- Serviço 2 -->
-      <div class="bg-gray-200 p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300">
+      <div data-aos="zoom-in" data-aos-duration="800" class=" p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300" style="background-color: #ffc4e8;">
         <h3 class="text-xl font-semibold text-pink-600 mb-2">Posts para redes sociais</h3>
         <p class="text-gray-700">Designs criativos e alinhados com sua identidade para Instagram, Facebook e outros.</p>
       </div>
 
       <!-- Serviço 3 -->
-      <div class="bg-gray-200 p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300">
+      <div data-aos="zoom-in" data-aos-duration="800" class=" p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300" style="background-color: #ffc4e8;">
         <h3 class="text-xl font-semibold text-pink-600 mb-2">Capas para vídeos curtos</h3>
         <p class="text-gray-700">Reels, TikToks e stories dinâmicos e sob medida para engajar sua audiência.</p>
       </div>
 
       <!-- Serviço 4 -->
-      <div class="bg-gray-200 p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300">
+      <div data-aos="zoom-in" data-aos-duration="800" class=" p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300" style="background-color: #ffc4e8;">
         <h3 class="text-xl font-semibold text-pink-600 mb-2">Criação de Emotes e Desenhos</h3>
         <p class="text-gray-700">Ilustrações únicas e emotes personalizados para streamers e criadores.</p>
       </div>
       <!--Serviço 5-->
-        <div class="bg-gray-200 p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300">
+        <div data-aos="zoom-in" data-aos-duration="800" class=" p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300" style="background-color: #ffc4e8;">
         <h3 class="text-xl font-semibold text-pink-600 mb-2">Configuração de servidores</h3>
         <p class="text-gray-700">Criamos, personalizamos e configuramos o seu servidor do discord, </p>
     </div>
     <!--Serviço 6-->
-        <div class="bg-gray-200 p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300">
+        <div data-aos="zoom-in" data-aos-duration="800" class=" p-6 rounded-xl shadow hover:scale-110 transition-transform duration-300" style="background-color: #ffc4e8;">
         <h3 class="text-xl font-semibold text-pink-600 mb-2">Personalização de lojas</h3>
         <p class="text-gray-700">Deixamos sua loja com um visual bonito, organizado e profissional pra atrair mais clientes e vender mais. </p>
     </div>
   </div>
 </section>
-<section id="portfolio" class="bg-gray-200 py-20">
+<section id="portfolio" class="py-20" style="background-color: #ffc4e8;">
   <div class="max-w-6xl mx-auto px-4 text-center">
-    <h1 class="text-7xl font-bold mb-10">Nossos <span>trabalhos recentes</span></h1>
-    
-    <div id="carousel" class="relative overflow-hidden">
+    <h1 data-aos="fade-in" data-aos-duration="800" class="text-7xl font-bold mb-10">
+      Nossos <span>trabalhos recentes</span>
+    </h1>
+
+    <div data-aos="zoom-in" data-aos-duration="800" id="carousel" class="relative overflow-hidden">
       <div id="carousel-track" class="flex transition-transform duration-500 ease-in-out">
-        <!-- 20 imagens no carrossel dentro de containers para evitar distorção -->
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./Lineup Completa.png" alt="Trabalho 1" class="w-full h-auto object-contain">
+        <!-- Imagens centralizadas verticalmente -->
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./Lineup Completa.png" alt="Trabalho 1" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./loja offline.png" alt="Trabalho 2" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./loja offline.png" alt="Trabalho 2" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./STREAM OFFLINE.png" alt="Trabalho 3" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./STREAM OFFLINE.png" alt="Trabalho 3" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./pagamento aprovado.png" alt="Trabalho 4" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./pagamento aprovado.png" alt="Trabalho 4" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./Parcerias My Missy.png" alt="Trabalho 5" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./Parcerias My Missy.png" alt="Trabalho 5" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./Welcome.png" alt="Trabalho 6" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./Welcome.png" alt="Trabalho 6" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./SOBRE.png" alt="Trabalho 7" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./SOBRE.png" alt="Trabalho 7" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./SETUP.png" alt="Trabalho 8" class="w-full h-auto object-contain">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./SETUP.png" alt="Trabalho 8" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./teemo emote feliz.png" alt="Trabalho 9" class="w-full h-auto object-contain" style="width:140px; height:auto;">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./teemo emote feliz.png" alt="Trabalho 9" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./emote gato e crossait.png" alt="Trabalho 10" class="w-full h-auto object-contain" style="width:140px; height:auto;">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./emote gato e crossait.png" alt="Trabalho 10" class="max-w-full max-h-full object-contain">
         </div>
-        <div class="w-72 mx-2 flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
-          <img src="./gato bruxo.png" alt="Trabalho 11" class="w-full h-auto object-contain" style="width:140px; height:auto;">
+        <div class="w-72 h-72 mx-2 flex items-center justify-center flex-shrink-0 rounded-lg overflow-hidden shadow-md hover:scale-105 transition-transform duration-300">
+          <img src="./gato bruxo.png" alt="Trabalho 11" class="max-w-full max-h-full object-contain">
         </div>
-        
       </div>
     </div>
   </div>
 </section>
 
 
+
     <!-- Contato -->
   <section id="contato" class="py-16 px-6 bg-white text-center">
-    <h2 class="text-5xl font-bold text-pink-700 mb-4">Fale com a gente</h2>
-    <p class="text-gray-700 text-xl mb-6">Quer transformar sua ideia em algo visual? Manda uma mensagem e vamos criar juntos.</p>
-    <a href="https://wa.me/5511988784102?text=Olá,%20quero%20um%20design%20personalizado!" target="_blank" class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded transition">Entrar em contato</a>
+    <h2 data-aos="fade-up" data-aos-duration="800" class="text-5xl font-bold text-pink-700 mb-4">Fale com a gente</h2>
+    <p data-aos="fade-up" data-aos-duration="800" class="text-gray-700 text-xl mb-6">Quer transformar sua ideia em algo visual? Manda uma mensagem e vamos criar juntos.</p>
+    <a data-aos="zoom-in" data-aos-duration="800" href="https://wa.me/5511988784102?text=Olá,%20quero%20um%20design%20personalizado!" target="_blank" class="bg-pink-600 hover:bg-pink-700 text-white px-6 py-3 rounded transition">Entrar em contato</a>
   </section>
 
   <!-- Footer -->
@@ -266,6 +270,12 @@
         d="M12.04 2.003a9.96 9.96 0 0 0-8.26 15.263L2 22l4.84-1.755a9.96 9.96 0 0 0 5.2 1.43c5.523 0 10-4.477 10-10s-4.477-9.672-10-9.672zm0 18.127a8.01 8.01 0 0 1-4.101-1.124l-.293-.175-2.863 1.038.978-2.976-.193-.307a8.012 8.012 0 1 1 6.472 3.544zm4.402-6.018c-.236-.118-1.394-.687-1.61-.765-.216-.079-.374-.118-.531.118-.157.236-.61.765-.748.923-.138.157-.275.177-.511.059-.236-.118-.996-.366-1.897-1.168-.7-.625-1.173-1.397-1.31-1.633-.138-.236-.015-.364.103-.482.105-.104.236-.275.354-.413.118-.138.157-.236.236-.393.079-.157.04-.295-.02-.413-.059-.118-.531-1.28-.727-1.753-.191-.457-.386-.396-.531-.404l-.452-.008c-.157 0-.413.059-.63.295-.216.236-.827.807-.827 1.97 0 1.162.846 2.283.963 2.438.118.157 1.66 2.528 4.021 3.544.562.242 1.002.386 1.345.494.565.18 1.079.155 1.484.094.453-.068 1.394-.57 1.59-1.12.196-.55.196-1.021.137-1.12-.059-.098-.216-.157-.452-.275z" />
     </svg>
   </a>
+
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
 </body>
 
 </html>
