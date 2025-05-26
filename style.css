@@ -1,8 +1,8 @@
 
 
-header, h1, a{
+header, a{
     
-      font-family: 'Two of Hearts', cursive;
+     font-family: 'Cabin', sans-serif;
       
     }
 body {
@@ -50,12 +50,12 @@ padding-left: 20px;}
     p{
       font-family: 'Rubik', sans-serif;
     }
-    .am{
+    a{
   font-family: 'Cabin', sans-serif;
 
     }
     @media (max-width: 768px) {
-  h1, header, a {
+  h1{
    font-family: 'Fugaz One', sans-serif;
   }
 }
